@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Text;
 
 namespace C_sharp_2__assignment
 {
@@ -21,6 +22,15 @@ namespace C_sharp_2__assignment
             string str2 = "Clean Code";
 
             Console.WriteLine(object.ReferenceEquals(str1,str2));
+
+            #endregion
+
+            #region Third question
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append("- Updated");
+            Console.WriteLine(sb.ToString());
 
             #endregion
         }
