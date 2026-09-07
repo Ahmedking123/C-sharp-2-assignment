@@ -132,6 +132,18 @@ namespace C_sharp_2__assignment
             }
 
             #endregion
+
+            #region Fourteenth question
+
+            count = 0;
+            do
+            {
+                Console.WriteLine("cheecking book...");
+                count++;
+            }
+            while (count < 3);
+
+            #endregion
         }
     }
 }
