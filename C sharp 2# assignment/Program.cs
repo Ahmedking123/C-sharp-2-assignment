@@ -109,6 +109,17 @@ namespace C_sharp_2__assignment
             string sizeLabel = Pages > 300 ? "Long book" : "Short book";
 
             #endregion
+
+            #region twelfth
+
+            string[] books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i + 1} {books[i]}");
+            }
+
+            #endregion
         }
     }
 }
