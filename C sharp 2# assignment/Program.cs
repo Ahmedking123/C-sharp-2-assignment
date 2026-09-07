@@ -104,6 +104,11 @@ namespace C_sharp_2__assignment
 
             #endregion
 
+            #region eleventh
+
+            string sizeLabel = Pages > 300 ? "Long book" : "Short book";
+
+            #endregion
         }
     }
 }
