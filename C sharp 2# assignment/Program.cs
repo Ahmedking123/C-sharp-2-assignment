@@ -165,6 +165,19 @@ namespace C_sharp_2__assignment
             }
 
             #endregion
+
+            #region Seventeenth question
+
+            foreach (var book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(book);
+            }
+
+            #endregion
         }
     }
 }
