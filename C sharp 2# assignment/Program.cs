@@ -178,6 +178,22 @@ namespace C_sharp_2__assignment
             }
 
             #endregion
+
         }
+        #region Eighteenth question
+
+        static void PrintFirstBook(string[] books)
+        {
+            if (books.Length == 0)
+            {
+                return;
+            }
+            else
+            {
+                Console.WriteLine(books[0]);
+            }
+        }
+
+        #endregion
     }
 }
