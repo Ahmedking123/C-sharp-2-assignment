@@ -120,6 +120,18 @@ namespace C_sharp_2__assignment
             }
 
             #endregion
+
+            #region Thirteenth question
+
+            int count = 0;
+
+            while (count < books.Length)
+            {
+                Console.WriteLine(books[count]);
+                count++;
+            }
+
+            #endregion
         }
     }
 }
