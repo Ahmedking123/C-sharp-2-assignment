@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Dynamic;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -75,6 +76,25 @@ namespace C_sharp_2__assignment
             {
                 Console.WriteLine("Youu can borrow this book");
             }
+            #endregion
+
+            #region Ninth question
+
+            title = "Refactoring";
+
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great Choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+
             #endregion
         }
     }
