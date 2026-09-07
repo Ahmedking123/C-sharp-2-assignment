@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace C_sharp_2__assignment
@@ -64,6 +65,16 @@ namespace C_sharp_2__assignment
                 Console.WriteLine("Short book");
             }
 
+            #endregion
+
+            #region Eighth question
+
+            bool IsAvailable = true;
+
+            if (IsAvailable && Pages > 300)
+            {
+                Console.WriteLine("Youu can borrow this book");
+            }
             #endregion
         }
     }
