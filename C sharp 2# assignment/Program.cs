@@ -14,6 +14,15 @@ namespace C_sharp_2__assignment
             Console.WriteLine(upperTitle);
 
             #endregion
+
+            #region Second question
+
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+
+            Console.WriteLine(object.ReferenceEquals(str1,str2));
+
+            #endregion
         }
     }
 }
