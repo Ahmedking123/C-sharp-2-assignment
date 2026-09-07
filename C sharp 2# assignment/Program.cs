@@ -33,6 +33,13 @@ namespace C_sharp_2__assignment
             Console.WriteLine(sb.ToString());
 
             #endregion
+
+            #region Fourth question
+
+            int Pages = 464;
+            new string("Book: " + str1 + " Pages: " + Pages);
+
+            #endregion
         }
     }
 }
