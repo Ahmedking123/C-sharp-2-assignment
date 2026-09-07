@@ -40,6 +40,12 @@ namespace C_sharp_2__assignment
             new string("Book: " + str1 + " Pages: " + Pages);
 
             #endregion
+
+            #region Fifth question
+
+            new string($"Book: {str1} Pages: {Pages}");
+
+            #endregion
         }
     }
 }
