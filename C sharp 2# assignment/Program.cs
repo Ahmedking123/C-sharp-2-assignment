@@ -52,6 +52,19 @@ namespace C_sharp_2__assignment
             string.Format("Book: {0} Pages: {1}", str1, Pages);
 
             #endregion
+
+            #region Seventh question
+
+            if (Pages > 300)
+            {
+                Console.WriteLine("Long book");
+            }
+            else
+            {
+                Console.WriteLine("Short book");
+            }
+
+            #endregion
         }
     }
 }
