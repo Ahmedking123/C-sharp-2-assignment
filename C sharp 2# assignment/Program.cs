@@ -96,6 +96,14 @@ namespace C_sharp_2__assignment
             }
 
             #endregion
+
+            #region Tenth question
+
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb.ToString());
+
+            #endregion
+
         }
     }
 }
