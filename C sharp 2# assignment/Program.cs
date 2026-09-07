@@ -46,6 +46,12 @@ namespace C_sharp_2__assignment
             new string($"Book: {str1} Pages: {Pages}");
 
             #endregion
+
+            #region Sixth question
+
+            string.Format("Book: {0} Pages: {1}", str1, Pages);
+
+            #endregion
         }
     }
 }
