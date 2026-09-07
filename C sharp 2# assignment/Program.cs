@@ -23,7 +23,7 @@ namespace C_sharp_2__assignment
             string str1 = "Clean Code";
             string str2 = "Clean Code";
 
-            Console.WriteLine(object.ReferenceEquals(str1,str2));
+            Console.WriteLine(object.ReferenceEquals(str1, str2));
 
             #endregion
 
@@ -154,46 +154,6 @@ namespace C_sharp_2__assignment
 
             #endregion
 
-            #region Sixteenth question
-
-            foreach (var book in books)
-            {
-                if (book == "Refactoring")
-                {
-                    break;
-                }
-            }
-
-            #endregion
-
-            #region Seventeenth question
-
-            foreach (var book in books)
-            {
-                if (book == "The Pragmatic Programmer")
-                {
-                    continue;
-                }
-                Console.WriteLine(book);
-            }
-
-            #endregion
-
         }
-        #region Eighteenth question
-
-        static void PrintFirstBook(string[] books)
-        {
-            if (books.Length == 0)
-            {
-                return;
-            }
-            else
-            {
-                Console.WriteLine(books[0]);
-            }
-        }
-
-        #endregion
     }
 }
