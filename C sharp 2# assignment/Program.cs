@@ -144,6 +144,27 @@ namespace C_sharp_2__assignment
             while (count < 3);
 
             #endregion
+
+            #region Fifteenth question
+
+            foreach (var book in books)
+            {
+                Console.WriteLine(book);
+            }
+
+            #endregion
+
+            #region Sixteenth question
+
+            foreach (var book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+            }
+
+            #endregion
         }
     }
 }
